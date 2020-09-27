@@ -1,5 +1,5 @@
 def School
   
-  def initialization
+  def initialization(name)
   
 end
