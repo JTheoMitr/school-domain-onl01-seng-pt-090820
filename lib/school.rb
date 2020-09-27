@@ -1,4 +1,4 @@
-def School
+class School
   
   def initialization(name)
     @name = name
