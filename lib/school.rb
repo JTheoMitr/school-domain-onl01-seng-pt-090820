@@ -7,8 +7,11 @@ class School
     @roster = {}
   end
   
-  def add_student
+  def add_student(new_student, grade)
+    roster[grade] ||=[]
+    roster[grade] << new_student
+
+  end
+
   
 end
-
-school = School.new("Bayside High School")
